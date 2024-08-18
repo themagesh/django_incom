@@ -1,1 +1,75 @@
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Django SQL database files
+*.sqlite3
+
+# Local development environment settings
+.env
+*.local
+
+# Logs
+*.log
+
+# Static and media files
+/static/
+/media/
+/staticfiles/
+
+# Django cache and other temporary files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+
+# Virtual environments
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.out
+*.err
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright static type checker
+.pyright/
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
